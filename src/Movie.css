@@ -1,0 +1,35 @@
+.movie{
+    display:flex;
+    padding : 20px;
+    color : rgba(0 ,0,0,0.4);
+    background-color: white;
+    width: 40%;
+    height : 10%;
+    margin : 30px 10px;
+    box-shadow: 12px 12px 2px 1px rgba(0 ,0,0,0.4);
+}
+.movie__title{
+    color :black;
+}
+.movie img{
+    position : relative;
+    width : 100px;
+    height :200px;
+    margin-right : 20px;
+    top : -50px;
+}
+
+.movie__data{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.genres{
+    display:flex;
+    padding : 0;
+}
+.genres .genre{
+    list-style: none;
+    margin-right : 10px;
+}
